@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>楷之泰官网-楷之泰家具-联系我们</title>
+    <meta name="Keywords" content="网站关键词"/>
+    <meta name="Description" content="网站描述"/>
+    <!--引入动画-->
+    <link rel="stylesheet" type="text/css" href="../css/animate.css"/>
+    <!--引入swiper-->
+    <link rel="stylesheet" type="text/css" href="../css/swiper.min.css"/>
+    <!--引入公共样式-->
+    <link rel="stylesheet" type="text/css" href="../css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/commontop.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/commonbottom.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/contact.css"/>
+    <!--引用百度地图API-->
+    <style type="text/css">
+        html,body{margin:0;padding:0;}
+        .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+        .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+<body>
+    <header>
+        <div class="wrap">
+            <div class="inner">
+                <div class="fl">
+                    <img src="../images/logo.png" alt="">
+                </div>
+                <div class="fr">
+                    <ul>
+                        <li>
+                            <a href="home.html">网站首页</a>
+                        </li>
+                        <li>
+                            <a href="about.html">公司简介</a>
+                        </li>
+                        <li>
+                            <a href="product.html">产品展示</a>
+                            <dl>
+                                <dd>
+                                    <a href="javascript:;">礼堂椅</a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">影院椅</a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">连排椅</a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">等候椅</a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">看台椅</a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">会议椅</a>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <a href="news.html">新闻中心</a>
+                            <dl>
+                                <dd>
+                                    <a href="javascript:;">公司新闻</a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">行业新闻</a>
+                                </dd>
+                                <dd>
+                                    <a href="javascript:;">技术支持</a>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <a href="case.html">成功案例</a>
+                        </li>
+                        <li>
+                            <a href="job.html">人才招聘</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">联系我们</a>
+                            <dl>
+                                <dd>
+                                    <a href="contact.html">联系方式</a>
+                                </dd>
+                                <dd>
+                                    <a href="message.html">在线留言</a>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- banner部分 -->
+    <div class="banner">
+        <img src="../images/contact-banner.jpg" alt="">
+    </div>
+    <!-- 标题 -->
+    <div class="headline">
+        <div class="inner">
+            <div class="home">
+                <img src="../images/home.png" alt="">
+            </div>
+            <div class="page">
+                <a href="javascript:;">联系我们</a>
+            </div>
+            <div class="page">
+                <a href="javascript:;">联系方式</a>
+            </div>
+        </div>
+    </div>
+    <!-- 联系方式 -->
+    <div class="intro">
+        <div class="title">
+            <p>联系方式</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="fl">
+            <p>河南楷之泰家具有限公司</p>
+            <div class="message">
+                <p>展厅电话：0371-55000863</p>
+                <p>联系人：赵经理</p>
+                <p>电话：18838292367（同微信号）</p>
+                <p>QQ：347095256</p>
+                <p>展厅地址：河南省郑州市管城区福蒙特家居中心C馆4楼南厅观光梯东侧</p>
+                <p>工厂地址：河南省开封市尉氏县大营工业区</p>
+            </div>
+            <div class="wx-guanzhu">
+                <p>微信关注</p>
+                <img src="../images/wx-contact.jpg" alt="">
+            </div>
+        </div>
+        <div class="fr">
+            <!--百度地图容器-->
+            <div style="width:727px;height:437px;" id="dituContent"></div>
+        </div>
+    </div>
+    <!-- 页面底部部分 -->
+    <footer>
+        <div class="nav">
+            <div class="inner">
+                <ul>
+                    <li>
+                        <a href="home.html">网站首页</a>
+                    </li>
+                    <li>
+                        <a href="about.html">公司简介</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">产品展示</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">新闻中心</a>
+                    </li>
+                    <li>
+                        <a href="case.html">成功案例</a>
+                    </li>
+                    <li>
+                        <a href="job.html">人才招聘</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="second">
+            <div class="inner">
+                <div class="message">
+                    <p>联系人：赵经理&nbsp;&nbsp;手机：18838292367</p>
+                    <p>电话：0371-55000863&nbsp;&nbsp;传真：0371-55000863&nbsp;&nbsp;邮箱：347095256@qq.com</p>
+                    <p>地址：河南省郑州市管城区福蒙特家居中心C馆4楼南厅观光梯东侧</p>
+                </div>
+                <div class="fl">
+                    <img src="../images/bottom-logo.png" alt="">
+                </div>
+                <div class="fr">
+                    <img src="../images/attention.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="friend">
+            <a class="marright0" href="javascript:;">友情链接&nbsp;&nbsp;:&nbsp;&nbsp;</a>
+            <a class="marright18" href="www.baidu.com">百度</a>
+            <a class="marright18" href="www.baidu.com">企汇网</a>
+            <a class="marright18" href="www.baidu.com">楷之泰家具</a>
+            <a class="marright18" href="www.baidu.com">百度</a>
+            <a class="marright18" href="www.baidu.com">企汇网</a>
+            <a class="marright18" href="www.baidu.com">楷之泰家具</a>
+            <a class="marright18" href="www.baidu.com">百度</a>
+            <a class="marright18" href="www.baidu.com">企汇网</a>
+            <a class="marright18" href="www.baidu.com">楷之泰家具</a>
+            <a class="marright18" href="www.baidu.com">百度</a>
+            <a class="marright18" href="www.baidu.com">企汇网</a>
+            <a class="marright18" href="www.baidu.com">楷之泰家具</a>
+            <a class="marright18" href="www.baidu.com">百度</a>
+            <a class="marright18" href="www.baidu.com">企汇网</a>
+            <a class="marright18" href="www.baidu.com">楷之泰家具</a>
+            <a class="marright18" href="www.baidu.com">百度</a>
+            <a class="marright18" href="www.baidu.com">企汇网</a>
+            <a class="marright18" href="www.baidu.com">楷之泰家具</a>
+            <a class="marright18" href="www.baidu.com">百度</a>
+            <a class="marright18" href="www.baidu.com">企汇网</a>
+            <a class="marright18" href="www.baidu.com">楷之泰家具</a>
+        </div>
+        <div class="copyright">
+            <a href="javascript:;">网站版权归河南楷之泰家具有限公司所有&nbsp;&nbsp;copyright&nbsp;©&nbsp;2002-2018豫ICP备10203599号</a>
+        </div>
+    </footer>
+    <!-- 侧边悬浮框 -->
+    <div class="section">
+        <section>
+            <div class="item phonenow">
+                <img src="../images/phone.png" alt="">
+                <p>立即通话</p>
+            </div>
+            <div class="item">
+                <img src="../images/qq.png" alt="">
+                <p>QQ咨询</p>
+            </div>
+            <div class="item wx">
+                <img src="../images/wx-ewm.png" alt="">
+                <p>官方微信</p>
+            </div>
+            <div class="item totop">
+                <img src="../images/totop.png" alt="">
+                <p></p>
+            </div>
+        </section>
+        <div class="hover">
+            <div class="phone">
+                <span>18838292367</span>
+            </div>
+            <div class="wx-ewm">
+                <img src="../images/ewm.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="../js/jQuery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/swiper.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/contact.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        //创建和初始化地图函数：
+        function initMap(){
+            createMap();//创建地图
+            setMapEvent();//设置地图事件
+            addMapControl();//向地图添加控件
+            addMarker();//向地图中添加marker
+        }
+        
+        //创建地图函数：
+        function createMap(){
+            var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+            var point = new BMap.Point(113.807124,34.75099);//定义一个中心点坐标
+            map.centerAndZoom(point,17);//设定地图的中心点和坐标并将地图显示在地图容器中
+            window.map = map;//将map变量存储在全局
+        }
+        
+        //地图事件设置函数：
+        function setMapEvent(){
+            map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+            map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+            map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+            map.enableKeyboard();//启用键盘上下左右键移动地图
+        }
+        
+        //地图控件添加函数：
+        function addMapControl(){
+            //向地图中添加缩放控件
+        var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+        map.addControl(ctrl_nav);
+            //向地图中添加缩略图控件
+        var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+        map.addControl(ctrl_ove);
+            //向地图中添加比例尺控件
+        var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+        map.addControl(ctrl_sca);
+        }
+        
+        //标注点数组
+        var markerArr = [{title:"河南楷之泰家具有限公司",content:"河南省郑州市管城区福蒙特家居中心<br/>C馆4楼南厅观光梯东侧",point:"113.807124|34.75099",isOpen:0,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+             ];
+        //创建marker
+        function addMarker(){
+            for(var i=0;i<markerArr.length;i++){
+                var json = markerArr[i];
+                var p0 = json.point.split("|")[0];
+                var p1 = json.point.split("|")[1];
+                var point = new BMap.Point(p0,p1);
+                var iconImg = createIcon(json.icon);
+                var marker = new BMap.Marker(point,{icon:iconImg});
+                var iw = createInfoWindow(i);
+                var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+                marker.setLabel(label);
+                map.addOverlay(marker);
+                label.setStyle({
+                    borderColor:"#808080",
+                    color:"#333",
+                    cursor:"pointer"
+                });
+                
+                (function(){
+                    var index = i;
+                    var _iw = createInfoWindow(i);
+                    var _marker = marker;
+                    _marker.addEventListener("click",function(){
+                        this.openInfoWindow(_iw);
+                    });
+                    _iw.addEventListener("open",function(){
+                        _marker.getLabel().hide();
+                    })
+                    _iw.addEventListener("close",function(){
+                        _marker.getLabel().show();
+                    })
+                    label.addEventListener("click",function(){
+                        _marker.openInfoWindow(_iw);
+                    })
+                    if(!!json.isOpen){
+                        label.hide();
+                        _marker.openInfoWindow(_iw);
+                    }
+                })()
+            }
+        }
+        //创建InfoWindow
+        function createInfoWindow(i){
+            var json = markerArr[i];
+            var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+            return iw;
+        }
+        //创建一个Icon
+        function createIcon(json){
+            var icon = new BMap.Icon("http://map.baidu.com/image/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+            return icon;
+        }
+        
+        initMap();//创建和初始化地图
+    </script>
+</html>

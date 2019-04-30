@@ -1,0 +1,87 @@
+.banner {
+    width: 100%;
+    min-width: 1200px;
+    height: 424px;
+}
+.banner > img {
+    width: 100%;
+    min-width: 1200px;
+    height: 424px;
+}
+.headline {
+    width: 100%;
+    min-width: 1200px;
+    height: 61px;
+    line-height: 61px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.headline > .inner {
+    width: 1200px;
+    margin: 0 auto 0px;
+    overflow: hidden;
+}
+.headline > .inner > div {
+    border-left: 1px solid #e6e6e6;
+    float: left;
+}
+.headline > .inner > div:nth-child(3){
+    border-right: 1px solid #e6e6e6;
+}
+.headline > .inner > div.home {
+    width: 62px;
+    height: 61px;
+    text-align: center;
+}
+.headline > .inner > div.home > img {
+    width: 22px;
+    height: 20px;
+}
+.headline > .inner > div.page {
+    width: 160px;
+    text-align: center;
+    font-size: 14px;
+}
+.headline > .inner > div.page > a {
+    width: 160px;
+    height: 61px;
+    display: block;
+    color: inherit;
+    font-size: inherit;
+}
+.intro {
+    width: 100%;
+    min-width: 1200px;
+}
+.intro > .title {
+    width: 1200px;
+    padding: 63px 0px 45px;
+    margin: 0 auto 0;
+    margin-bottom: 36px;
+    border-bottom: 1px solid #333;
+    text-align: center;
+}
+.intro > .title > p {
+    font-size: 40px;
+}
+.intro > .img {
+    width: 1200px;
+    margin: 0 auto 43px;
+}
+.intro > .img > img {
+    width: 1200px;
+    height: 404px;
+}
+.intro > .content {
+    width: 1200px;
+    margin: 0 auto 95px;
+}
+.intro > .content > p {
+    font-size: 14px;
+    color: #444;
+    margin-top: 48px;
+}
+.intro > .content > p:nth-child(1) {
+    margin-top: 0px;
+}
+
+

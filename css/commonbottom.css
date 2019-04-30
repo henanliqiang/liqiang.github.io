@@ -1,0 +1,91 @@
+footer {
+    width: 100%;
+    min-width: 1200px;
+    background-color: #333;
+}
+footer > .nav {
+    width: 100%;
+    min-width: 1200px;
+}
+footer > .nav > .inner {
+    width: 1200px;
+    margin: 0 auto 0;
+}
+footer > .nav > .inner > ul {
+    width: 1200px;
+    border-bottom: 1px solid #383838;
+    margin: 0 auto 0;
+    display: flex;
+    justify-content: center;
+}
+footer > .nav > .inner > ul > li {
+    margin: 58px 40px 20px;
+}
+footer > .nav > .inner > ul > li > a {
+    font-size: 12px;
+    color: #666;
+}
+footer > .nav > .inner > ul > li > a:hover {
+    color: #fff;
+}
+footer > .second {
+    width: 1200px;
+    margin: 36px auto 0;
+    position: relative;
+}
+footer > .second > .inner {
+    width: 925px;
+    margin: 0px auto 0px;
+    overflow: hidden;
+}
+footer > .second > .inner > .message {
+    text-align: left;
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+}
+footer > .second > .inner > .message > p {
+    font-size: 12px;
+    color: #8e8e8e;
+    margin-top: 18px;
+}
+footer > .second > .inner > .message > p:nth-child(1){
+    margin-top: 0px;
+}
+footer > .second > .inner > .fl > img {
+    width: 126px;
+    height: 111px;
+}
+footer > .second > .inner > .fr > img {
+    width: 118px;
+    height: 131px;
+}
+footer > .friend {
+    width: 1200px;
+    padding: 53px 0px 30px;
+    margin: 0 auto 0px;
+    overflow: hidden;
+}
+footer > .friend > a {
+    font-size: 12px;
+    color: #999;
+    float: left;
+    margin-bottom: 15px;
+}
+footer > .friend > a.marright0 {
+    margin-right: 0px;
+}
+footer > .friend > a.marright18 {
+    margin-right: 18px;
+}
+footer > .copyright {
+    height: 46px;
+    line-height: 46px;
+    background-color: #020202;
+    text-align: center;
+}
+footer > .copyright > a {
+    font-size: 12px;
+    color: #666;
+}

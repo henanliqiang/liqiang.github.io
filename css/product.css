@@ -1,0 +1,137 @@
+.banner {
+    width: 100%;
+    min-width: 1200px;
+    height: 424px;
+}
+.banner > img {
+    width: 100%;
+    min-width: 1200px;
+    height: 424px;
+}
+.headline {
+    width: 100%;
+    min-width: 1200px;
+    height: 61px;
+    line-height: 61px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.headline > .inner {
+    width: 1200px;
+    margin: 0 auto 0px;
+    overflow: hidden;
+}
+.headline > .inner > div {
+    border-left: 1px solid #e6e6e6;
+    float: left;
+}
+.headline > .inner > div:nth-child(3){
+    border-right: 1px solid #e6e6e6;
+}
+.headline > .inner > div.home {
+    width: 62px;
+    height: 61px;
+    text-align: center;
+}
+.headline > .inner > div.home > img {
+    width: 22px;
+    height: 20px;
+}
+.headline > .inner > div.page {
+    width: 160px;
+    text-align: center;
+    font-size: 14px;
+}
+.headline > .inner > div.page > a {
+    width: 160px;
+    height: 61px;
+    display: block;
+    color: inherit;
+    font-size: inherit;
+}
+.intro > .title {
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto 0px;
+}
+.intro > .title > p {
+    font-size: 40px;
+    color: #444;
+    margin: 63px 0px 37px;
+}
+.intro > .switch {
+    width: 1200px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #333;
+    display: flex;
+    justify-content:center;
+    margin: 0 auto 0px;
+}
+.intro > .switch > .switchs {
+    color: #999;
+    margin: 0px 27.5px;
+}
+.intro > .switch > .active {
+    color: #444;
+}
+.intro > .switch > .switchs > a {
+    font-size: 18px;
+    color: inherit;
+}
+.intro > .products {
+    width: 1200px;
+    margin: 45px auto 0px;
+}
+.intro > .products > .shows {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.intro > .products > .shows > .item {
+    width: 360px;
+    margin-top: 49px;
+}
+.intro > .products > .shows > .item:nth-child(1) {
+    margin-top: 0px;
+}
+.intro > .products > .shows > .item:nth-child(2) {
+    margin-top: 0px;
+}
+.intro > .products > .shows > .item:nth-child(3) {
+    margin-top: 0px;
+}
+.intro > .products > .shows > .item > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.intro > .products > .shows > .item > img {
+    width: 360px;
+    height: 360px;
+}
+.intro > .products > .shows > .item > p {
+    font-size: 20px;
+    color: #444;
+    margin-top: 28px;
+}
+.intro > .products > .shows > .item > a > img {
+    width: 360px;
+    height: 360px;
+}
+.intro > .products > .shows > .item > a > p {
+    font-size: 20px;
+    color: #444;
+    margin-top: 28px;
+}
+/* 分页器 */
+#htmleaf-container {
+    text-align: center;
+    margin: 58px auto 118px;
+}
+.paginationjs .paginationjs-pages {
+    margin: 0 auto 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+}

@@ -1,0 +1,126 @@
+.banner {
+    width: 100%;
+    min-width: 1200px;
+    height: 424px;
+}
+.banner > img {
+    width: 100%;
+    min-width: 1200px;
+    height: 424px;
+}
+.headline {
+    width: 100%;
+    min-width: 1200px;
+    height: 61px;
+    line-height: 61px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.headline > .inner {
+    width: 1200px;
+    margin: 0 auto 0px;
+    overflow: hidden;
+}
+.headline > .inner > div {
+    border-left: 1px solid #e6e6e6;
+    float: left;
+}
+.headline > .inner > div:nth-child(3){
+    border-right: 1px solid #e6e6e6;
+}
+.headline > .inner > div.home {
+    width: 62px;
+    height: 61px;
+    text-align: center;
+}
+.headline > .inner > div.home > img {
+    width: 22px;
+    height: 20px;
+}
+.headline > .inner > div.page {
+    width: 160px;
+    text-align: center;
+    font-size: 14px;
+}
+.headline > .inner > div.page > a {
+    width: 160px;
+    height: 61px;
+    display: block;
+    color: inherit;
+    font-size: inherit;
+}
+.intro {
+    width: 100%;
+    min-width: 1200px;
+}
+.intro > .title {
+    width: 1200px;
+    padding: 63px 0px 38px;
+    margin: 0 auto 0;
+    border-bottom: 1px solid #333;
+    text-align: center;
+}
+.intro > .title > p {
+    font-size: 40px;
+}
+.messages {
+    width: 1200px;
+    text-align: center;
+    margin: 0px auto 144px;
+}
+.messages > ul > li {
+    border-bottom: 1px solid #d4d4d4;
+    overflow: hidden;
+}
+.messages > ul > li.content {
+    height: 273px;
+}
+.messages > ul > li.content > .fl {
+    width: 200px;
+    height: 273px;
+    line-height: 273px;
+}
+.messages > ul > li > div.fl {
+    width: 200px;
+    height: 82px;
+    line-height: 82px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.messages > ul > li > div.fl > p {
+    font-size: 16px;
+    font-weight: bold;
+}
+.messages > ul > li > div.input {
+    float: left;
+}
+.messages > ul > li > div.input > input {
+    width: 460px;
+    height: 32px;
+    padding: 10px;
+    border: 1px solid #d4d4d4;
+    margin: 15px 0px 15px 20px;
+}
+.messages > ul > li > div.input > textarea {
+    width: 780px;
+    height: 202px;
+    padding: 10px;
+    border: 1px solid #d4d4d4;
+    resize: none;
+    margin-top: 29px;
+    margin-left: 20px;
+}
+.messages > ul > li.submit {
+    border: none;
+    margin-top: 61px;
+}
+.messages > ul > li.submit > input[type='submit'] {
+    width: 265px;
+    height: 63px;
+    line-height: 63px;
+    text-align: center;
+    background-color: #be0203;
+    border: 1px solid #be0203;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}

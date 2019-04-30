@@ -1,0 +1,138 @@
+.banner {
+    width: 100%;
+    min-width: 1200px;
+    height: 424px;
+}
+.banner > img {
+    width: 100%;
+    min-width: 1200px;
+    height: 424px;
+}
+.headline {
+    width: 100%;
+    min-width: 1200px;
+    height: 61px;
+    line-height: 61px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.headline > .inner {
+    width: 1200px;
+    margin: 0 auto 0px;
+    overflow: hidden;
+}
+.headline > .inner > div {
+    border-left: 1px solid #e6e6e6;
+    float: left;
+}
+.headline > .inner > div:nth-child(3){
+    border-right: 1px solid #e6e6e6;
+}
+.headline > .inner > div.home {
+    width: 62px;
+    height: 61px;
+    text-align: center;
+}
+.headline > .inner > div.home > img {
+    width: 22px;
+    height: 20px;
+}
+.headline > .inner > div.page {
+    width: 160px;
+    text-align: center;
+    font-size: 14px;
+}
+.headline > .inner > div.page > a {
+    width: 160px;
+    height: 61px;
+    display: block;
+    color: inherit;
+    font-size: inherit;
+}
+.intro {
+    width: 100%;
+    min-width: 1200px;
+}
+.intro > .title {
+    width: 1200px;
+    padding: 64px 0px 39px;
+    margin: 0 auto 0;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #333;
+    text-align: center;
+}
+.intro > .title > p {
+    font-size: 40px;
+}
+.intro > .img {
+    width: 1200px;
+    margin: 0 auto 43px;
+}
+.intro > .img > img {
+    width: 1200px;
+    height: 404px;
+}
+.banners {
+    width: 1200px;
+    height: 340px;
+    background-color: #f6f6f6;
+    margin: 0 auto 0px;
+}
+.banners > .fl {
+    max-width: 489px;
+    margin-top: 86px;
+    margin-left: 21px;
+}
+.banners > .fl > h1 {
+    font-size: 18px;
+    color: #444;
+}
+.banners > .fl > img {
+    width: 30px;
+    height: 1px;
+    margin: 16px 0px 22px;
+}
+.banners > .fl > p {
+    line-height: 30px;
+    font-size: 14px;
+    color: #444;
+}
+.banners > .fr {
+    width: 570px;
+    height: 339px;
+    overflow: hidden;
+}
+.banners > .fr > img {
+    width: 570px;
+    height: 339px;
+    float: left;
+}
+.table {
+    width: 1200px;
+    text-align: center;
+    margin: 35px auto 73px;
+}
+.table > table {
+    width: 1200px;
+    border-collapse: separate;
+    -webkit-border-vertical-spacing: 18px;
+}
+.table > table > tbody {
+    width: 1200px;
+}
+.table > table > tbody > tr {
+    height: 55px;
+    line-height: 55px;
+    background-color: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    margin-top: 18px;
+    font-size: 16px;
+}
+.table > table > tbody > tr:nth-child(1) {
+    margin-top: 0px;
+}
+.table > table > tbody > tr > th {
+    font-weight: bold;
+}
+.table > table > tbody > tr > td {
+    font-weight: normal;
+}

@@ -1,0 +1,11 @@
+1.home.html---首页
+2.about.html---公司简介
+3.case.html---成功案例
+4.case-xq.html---成功案例详情
+5.contact.html---联系我们
+6.job.html---人才招聘
+7.message.html---在线留言
+8.news.html---新闻中心
+9.news-xq.html---新闻详情
+10.product.html---产品展示
+11.product-xq.html---产品详情
