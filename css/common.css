@@ -194,6 +194,10 @@ html,body {
 	height: 87px;
 	text-align: center;
 	overflow: hidden;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
 }
 .section > section > .item:nth-child(4){
 	border-top: 1px solid #fff;
